@@ -1,0 +1,35 @@
+.FirstListSpace li{
+    margin: 0.5rem;
+}
+
+.TopNavbar, .FirstListSpace li{
+    transition: width 0.5s ease-out;
+}
+
+.FirstListSpace li{
+    padding: 0.3rem 0.7rem;
+    border-radius: 17px;
+}
+.FirstListSpace li:hover{
+    background-color: black;
+    color: white;
+}
+.FirstListSpace li, .SecondListSpace li{
+    cursor: pointer;
+    margin: 0.5rem;
+}
+.ThirdList {
+    margin: 0;
+}
+.ThirdList li{
+    border-bottom: 2px solid transparent;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+
+}
+.ThirdActive{
+    border-bottom :2px solid blue !important;
+}
+.ThirdList li:hover{
+    border-bottom: 2px solid blue;
+}
