@@ -1,0 +1,1 @@
+# SamsungGalaxyNote10
